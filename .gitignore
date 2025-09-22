@@ -421,10 +421,10 @@ ML/modelli/*.joblib
 ML/modelli/*.pkl
 ML/modelli/*.h5
 
-# Generated plots (keep sample plots)
-ML/grafici_ml/*.png
-ML/grafici_ml/*.jpg
-ML/grafici_ml/*.svg
+# Keep ML visualization plots for documentation
+# ML/grafici_ml/*.png  # Commented out - keep plots on GitHub
+# ML/grafici_ml/*.jpg
+# ML/grafici_ml/*.svg
 
 # ML experiment outputs
 ML/experiments/
@@ -495,6 +495,5 @@ backups/
 !config.template.yml
 !.env.example
 
-# Force include sample ML artifacts for demonstration
-!ML/grafici_ml/sample_*.png
+# Force include important files for documentation
 !ML/modelli/feature_config.example.joblib
