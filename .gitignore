@@ -439,7 +439,7 @@ ML/reports/generated/
 # Project Specific
 # ==========================================
 
-# Internal documentation files
+# Internal documentation files - exclude from GitHub
 CLAUDE.md
 code_gen.md
 guidelines.md
