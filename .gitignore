@@ -439,6 +439,11 @@ ML/reports/generated/
 # Project Specific
 # ==========================================
 
+# Internal documentation files
+CLAUDE.md
+code_gen.md
+guidelines.md
+
 # Azure Storage local cache
 .azure_cache/
 
@@ -482,10 +487,11 @@ backups/
 !setup.py
 !setup.cfg
 
-# Force include documentation
+# Force include documentation (except internal docs)
 !README.md
-!CLAUDE.md
-!*.md
+# !CLAUDE.md      # Internal documentation - excluded
+# !code_gen.md    # Internal documentation - excluded  
+# !guidelines.md  # Internal documentation - excluded
 
 # Force include small sample data
 !data/schema.sql
